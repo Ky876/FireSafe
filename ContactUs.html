@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Kyjah Clarke">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	
+	<title> FireSafe </title>
+	<link rel="stylesheet" href= "FireSafe.css">
+</head>
+
+<body>
+	<header> 
+		<h1>FireSafe Application</h1>
+		<img class="center" src="OnFire.png" alt="Fire flames" style="width:400px;height:250px;">
+		<nav>
+			<ul>
+				<li class="menu"><a href="FireSafe.html">Home</a></li>
+				<li class="menu"><a href="AboutMe.html">About Me</a></li>
+				<li class="menu"><a href="ApplicationInfo.html">Application Prototype Information Page</a></li>
+				<li class="menu"><a href="UserGuide.html">User Guide</a></li>
+				<li class="menu"><a href="Marketing.html">Marketing Page</a></li>
+				<li class="menu active"><a href="ContactUs.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contact">
+		<h2>Contact Us</h2>
+		
+<p><span class="boldtext">We'd love to hear from you! If you have any questions, or need assistance, please reach out to us by filling out the form below.</span> </p>
+	
+	<form action="submit_form.php" method="POST">
+	
+		<label for="name">Your Name</label>
+		<input type="text" id="name" name="name" required>
+		
+		<label for="email"> Your Email</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="subject">Subject</label>
+		<input type="text" id="subject" name="subject" required><br><br>
+		
+		<label for="message">Message</label>
+		<textarea id="message" name="message" rows="5" required></textarea><br><br>
+		
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+		
+		</form>
+
+
+ 
+		
+	</section>
+	<br>
+	<br>
+		<a href="https://www.nfpa.org/customer-support/privacy-policy" target="_blank">PRIVACY POLICY</a><br><br>
+
+	<footer>
+	<p>&copy; 2024 FireSafe Application. All rights reserved.</p>
+	</footer>
+</body>
+
+</html>
